@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner" customClass="HEJDiscussionNewsController" customModule="Kepo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Ugx-Mh-j5W" id="EPs-2v-0xX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ugx-Mh-j5W">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bundleCount" translatesAutoresizingMaskIntoConstraints="NO" id="rrP-um-kNG">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconMain" translatesAutoresizingMaskIntoConstraints="NO" id="IFb-fE-TPs">
+                    <rect key="frame" x="152" y="395" width="89" height="89"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filterTitle" translatesAutoresizingMaskIntoConstraints="NO" id="hJh-nk-Apo">
+                    <rect key="frame" x="111.66666666666669" y="742" width="170" height="32"/>
+                </imageView>
+                <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeQ-wX-BBX">
+                    <rect key="frame" x="49" y="642" width="295" height="60"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="tagMymaincellarrowPopular"/>
+                    <connections>
+                        <action selector="selectLoginWithSignupClick:" destination="Heh-JB-pOA" eventType="touchUpInside" id="Aj9-ry-Zp0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUr-Fs-YKc">
+                    <rect key="frame" x="49" y="566" width="295" height="60"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="cancelUnselectClose"/>
+                    <connections>
+                        <action selector="selectLoginWithSignupClick:" destination="Heh-JB-pOA" eventType="touchUpInside" id="3q8-SA-syd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p58-3l-CPw">
+                    <rect key="frame" x="111" y="741" width="171" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35.02" id="qkF-Ol-a0B"/>
+                        <constraint firstAttribute="width" constant="170.99" id="tIy-ME-lwR"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="showTermsOfPoliyView:" destination="Heh-JB-pOA" eventType="touchUpInside" id="yOj-Vj-au6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="DNF-Yj-Xuh"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="rrP-um-kNG" firstAttribute="leading" secondItem="DNF-Yj-Xuh" secondAttribute="leading" id="gum-md-cDc"/>
+                <constraint firstItem="NUr-Fs-YKc" firstAttribute="top" secondItem="IFb-fE-TPs" secondAttribute="bottom" constant="81.99" id="MUv-qz-YdC"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="bottom" secondItem="p58-3l-CPw" secondAttribute="bottom" constant="8.01" id="Kuj-cR-k64"/>
+                <constraint firstItem="hJh-nk-Apo" firstAttribute="centerX" secondItem="Ugx-Mh-j5W" secondAttribute="centerX" id="rmt-0m-L67"/>
+                <constraint firstItem="rrP-um-kNG" firstAttribute="top" secondItem="Ugx-Mh-j5W" secondAttribute="top" id="qN2-6D-f0t"/>
+                <constraint firstItem="p58-3l-CPw" firstAttribute="centerX" secondItem="Ugx-Mh-j5W" secondAttribute="centerX" id="j9I-X5-hq0"/>
+                <constraint firstItem="XeQ-wX-BBX" firstAttribute="top" secondItem="NUr-Fs-YKc" secondAttribute="bottom" constant="16.02" id="6uo-RP-TA8"/>
+                <constraint firstItem="hJh-nk-Apo" firstAttribute="top" secondItem="XeQ-wX-BBX" secondAttribute="bottom" constant="40.01" id="sC8-0A-KLl"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="trailing" secondItem="rrP-um-kNG" secondAttribute="trailing" id="eYd-L4-svQ"/>
+                <constraint firstItem="NUr-Fs-YKc" firstAttribute="centerX" secondItem="Ugx-Mh-j5W" secondAttribute="centerX" id="Q9u-1Y-rm3"/>
+                <constraint firstItem="IFb-fE-TPs" firstAttribute="centerX" secondItem="Ugx-Mh-j5W" secondAttribute="centerX" id="RWR-h5-Wvu"/>
+                <constraint firstAttribute="bottom" secondItem="rrP-um-kNG" secondAttribute="bottom" id="ERA-j1-cz6"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="bottom" secondItem="hJh-nk-Apo" secondAttribute="bottom" constant="10.01" id="Yaf-F4-QbF"/>
+                <constraint firstItem="XeQ-wX-BBX" firstAttribute="centerX" secondItem="Ugx-Mh-j5W" secondAttribute="centerX" id="Lv1-0d-M2E"/>
+            </constraints>
+            <point key="canvasLocation" x="-42" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="filterTitle" width="170" height="32"/>
+        <image name="cancelUnselectClose" width="295" height="60"/>
+        <image name="bundleCount" width="375" height="812"/>
+        <image name="iconMain" width="89" height="89"/>
+        <image name="tagMymaincellarrowPopular" width="295" height="60"/>
+    </resources>
+</document>

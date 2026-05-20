@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JL3-b6-9fd" customClass="DRKSubmitedCenterView" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82S-It-aUS">
+                    <rect key="frame" x="0.0" y="597" width="393" height="255"/>
+                    <subviews>
+                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGX-0Q-3G7">
+                            <rect key="frame" x="49" y="24" width="295" height="52"/>
+                            <color key="backgroundColor" red="0.29019607843137252" green="0.28235294117647058" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51.98" id="CuI-Pd-U6V"/>
+                                <constraint firstAttribute="width" constant="294.96" id="0aA-BV-SlK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Camera"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="choiceAlbumCameraClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="rqC-TR-l8O"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dv5-Zy-5dY">
+                            <rect key="frame" x="49" y="88" width="295" height="52"/>
+                            <color key="backgroundColor" red="0.2901960784" green="0.28235294119999998" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="295.01" id="RXP-KS-3rW"/>
+                                <constraint firstAttribute="height" constant="52.02" id="k8y-Zy-DQE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Album"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="choiceAlbumCameraClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="QUR-J3-c1L"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTo-ae-faH">
+                            <rect key="frame" x="49" y="158" width="295" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51.99" id="47t-Yq-Pww"/>
+                                <constraint firstAttribute="width" constant="294.98" id="5QM-xb-zdc"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="waltesPlay"/>
+                            <connections>
+                                <action selector="choiceAlbumCameraClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="GxY-lZ-OJS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.19215686274509802" green="0.18431372549019609" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="YTo-ae-faH" firstAttribute="top" secondItem="Dv5-Zy-5dY" secondAttribute="bottom" constant="17.96" id="elx-c0-7Q4"/>
+                        <constraint firstItem="UGX-0Q-3G7" firstAttribute="centerX" secondItem="82S-It-aUS" secondAttribute="centerX" id="TMd-mL-bgS"/>
+                        <constraint firstAttribute="height" constant="255.01" id="QDG-dI-rql"/>
+                        <constraint firstItem="Dv5-Zy-5dY" firstAttribute="centerX" secondItem="82S-It-aUS" secondAttribute="centerX" id="9IF-hd-c40"/>
+                        <constraint firstItem="UGX-0Q-3G7" firstAttribute="top" secondItem="82S-It-aUS" secondAttribute="top" constant="24.01" id="cnf-b2-96Q"/>
+                        <constraint firstItem="Dv5-Zy-5dY" firstAttribute="top" secondItem="UGX-0Q-3G7" secondAttribute="bottom" constant="11.95" id="NCd-41-f2h"/>
+                        <constraint firstItem="YTo-ae-faH" firstAttribute="centerX" secondItem="82S-It-aUS" secondAttribute="centerX" id="6ZX-wM-Onu"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="21"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JF-yB-BeK">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="597"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="choiceAlbumCameraClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="oDS-gf-0u2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hLs-U8-GDl"/>
+            <color key="backgroundColor" white="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="82S-It-aUS" firstAttribute="top" secondItem="7JF-yB-BeK" secondAttribute="bottom" id="N9o-ta-Yr4"/>
+                <constraint firstItem="82S-It-aUS" firstAttribute="leading" secondItem="hLs-U8-GDl" secondAttribute="leading" id="H2H-R2-IUO"/>
+                <constraint firstAttribute="bottom" secondItem="82S-It-aUS" secondAttribute="bottom" id="Opv-ty-EwS"/>
+                <constraint firstItem="7JF-yB-BeK" firstAttribute="leading" secondItem="JL3-b6-9fd" secondAttribute="leading" id="xTM-Ie-u78"/>
+                <constraint firstAttribute="trailing" secondItem="7JF-yB-BeK" secondAttribute="trailing" id="B7M-kv-kk7"/>
+                <constraint firstItem="hLs-U8-GDl" firstAttribute="trailing" secondItem="82S-It-aUS" secondAttribute="trailing" id="Djc-xo-66X"/>
+                <constraint firstItem="7JF-yB-BeK" firstAttribute="top" secondItem="JL3-b6-9fd" secondAttribute="top" id="rBq-x0-1kJ"/>
+            </constraints>
+            <point key="canvasLocation" x="-155" y="-99"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="waltesPlay" width="295" height="52"/>
+    </resources>
+</document>

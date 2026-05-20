@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner" customClass="OUSignCameraController" customModule="Kepi" customModuleProvider="target">
+            <connections>
+                <outlet property="spendCoinsCardImageView" destination="iLF-54-h9s" id="Vfn-pX-UOx"/>
+                <outlet property="spendCoinsView" destination="Ln1-1v-h37" id="Tk9-cr-wFI"/>
+                <outlet property="tableView_discussion" destination="Yn3-yW-gpT" id="sXe-Lg-2dm"/>
+                <outlet property="tapSpendCoins" destination="z7g-ny-JkC" id="4db-XF-6A0"/>
+                <outlet property="taprechargeButton" destination="J2P-9Q-luj" id="ogf-yD-dCD"/>
+                <outlet property="view" destination="Ugx-Mh-j5W" id="EPs-2v-0xX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ugx-Mh-j5W">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="followedStringBack" translatesAutoresizingMaskIntoConstraints="NO" id="znC-vn-XVu">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personalDiscssionShared" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-vg-8Ma">
+                    <rect key="frame" x="20" y="134" width="87" height="44"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBw-Mu-I3q">
+                    <rect key="frame" x="329" y="134" width="44" height="44"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="mymaincellnamelabelFolloweraddusers"/>
+                    <connections>
+                        <action selector="createNewDiscussionGroupClick:" destination="Heh-JB-pOA" eventType="touchUpInside" id="0SM-Ad-dPj"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="0.0" sectionFooterHeight="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="Yn3-yW-gpT">
+                    <rect key="frame" x="0.0" y="188" width="393" height="596"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="DNF-Yj-Xuh"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Yn3-yW-gpT" firstAttribute="top" secondItem="MrZ-vg-8Ma" secondAttribute="bottom" constant="9.9900000000000002" id="8GF-OS-K2O"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="bottom" secondItem="Yn3-yW-gpT" secondAttribute="bottom" id="Ekt-Od-o10"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="trailing" secondItem="XBw-Mu-I3q" secondAttribute="trailing" constant="19.98" id="OFp-tr-IS2"/>
+                <constraint firstItem="MrZ-vg-8Ma" firstAttribute="top" secondItem="DNF-Yj-Xuh" secondAttribute="top" constant="16.010000000000002" id="TMj-PS-NAB"/>
+                <constraint firstAttribute="bottom" secondItem="znC-vn-XVu" secondAttribute="bottom" id="TRB-tw-faS"/>
+                <constraint firstItem="XBw-Mu-I3q" firstAttribute="centerY" secondItem="MrZ-vg-8Ma" secondAttribute="centerY" id="Z5j-D9-3Nk"/>
+                <constraint firstItem="znC-vn-XVu" firstAttribute="top" secondItem="Ugx-Mh-j5W" secondAttribute="top" id="eqL-hd-znV"/>
+                <constraint firstItem="Yn3-yW-gpT" firstAttribute="leading" secondItem="DNF-Yj-Xuh" secondAttribute="leading" id="hSe-hE-7MN"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="trailing" secondItem="znC-vn-XVu" secondAttribute="trailing" id="hnu-3p-weq"/>
+                <constraint firstItem="MrZ-vg-8Ma" firstAttribute="leading" secondItem="Ugx-Mh-j5W" secondAttribute="leading" constant="19.989999999999998" id="slG-Ba-yQA"/>
+                <constraint firstItem="znC-vn-XVu" firstAttribute="leading" secondItem="DNF-Yj-Xuh" secondAttribute="leading" id="uOg-kN-IR8"/>
+                <constraint firstItem="DNF-Yj-Xuh" firstAttribute="trailing" secondItem="Yn3-yW-gpT" secondAttribute="trailing" id="w16-ky-dJS"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-12"/>
+        </view>
+        <view contentMode="scaleToFill" id="Ln1-1v-h37">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0k8-5b-Jic">
+                    <rect key="frame" x="63" y="241" width="267" height="310"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buyingResultJdsfjkw" translatesAutoresizingMaskIntoConstraints="NO" id="iLF-54-h9s">
+                            <rect key="frame" x="0.0" y="0.0" width="267" height="310"/>
+                        </imageView>
+                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7g-ny-JkC">
+                            <rect key="frame" x="36" y="238" width="195" height="52"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="setholderCreate"/>
+                            <connections>
+                                <action selector="confirmConsumptionGoldCoinsUnlocked:" destination="Heh-JB-pOA" eventType="touchUpInside" id="ELW-v6-rzh"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2P-9Q-luj">
+                            <rect key="frame" x="36" y="238" width="195" height="52"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="passwordAvatar"/>
+                            <connections>
+                                <action selector="confirmConsumptionGoldCoinsUnlocked:" destination="Heh-JB-pOA" eventType="touchUpInside" id="Nae-n3-jvh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="z7g-ny-JkC" firstAttribute="centerX" secondItem="0k8-5b-Jic" secondAttribute="centerX" id="0I5-Lr-iH8"/>
+                        <constraint firstItem="iLF-54-h9s" firstAttribute="top" secondItem="0k8-5b-Jic" secondAttribute="top" id="BnG-JA-LaL"/>
+                        <constraint firstItem="iLF-54-h9s" firstAttribute="leading" secondItem="0k8-5b-Jic" secondAttribute="leading" id="FtG-0S-jFV"/>
+                        <constraint firstAttribute="height" constant="309.98000000000002" id="HaF-3k-QR8"/>
+                        <constraint firstAttribute="bottom" secondItem="iLF-54-h9s" secondAttribute="bottom" id="Ysp-kY-iTV"/>
+                        <constraint firstAttribute="bottom" secondItem="J2P-9Q-luj" secondAttribute="bottom" constant="20.02" id="cHE-Ul-ZRx"/>
+                        <constraint firstAttribute="trailing" secondItem="iLF-54-h9s" secondAttribute="trailing" id="fx8-aS-iNm"/>
+                        <constraint firstItem="J2P-9Q-luj" firstAttribute="centerX" secondItem="0k8-5b-Jic" secondAttribute="centerX" id="oGz-2G-LLB"/>
+                        <constraint firstAttribute="bottom" secondItem="z7g-ny-JkC" secondAttribute="bottom" constant="20.010000000000002" id="uHu-53-okC"/>
+                        <constraint firstAttribute="width" constant="266.98000000000002" id="wSj-0l-EQK"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="113" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Us-DN-Bfs">
+                    <rect key="frame" x="155.66666666666666" y="567" width="82" height="40"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="labelUser"/>
+                    <connections>
+                        <action selector="confirmConsumptionGoldCoinsUnlocked:" destination="Heh-JB-pOA" eventType="touchUpInside" id="5u9-B6-Wut"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="cSk-QI-SIp"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="6Us-DN-Bfs" firstAttribute="centerX" secondItem="0k8-5b-Jic" secondAttribute="centerX" id="RDZ-Pt-Hjm"/>
+                <constraint firstItem="0k8-5b-Jic" firstAttribute="centerX" secondItem="Ln1-1v-h37" secondAttribute="centerX" id="VNe-cl-opn"/>
+                <constraint firstItem="6Us-DN-Bfs" firstAttribute="top" secondItem="0k8-5b-Jic" secondAttribute="bottom" constant="15.99" id="jX1-Ep-QPz"/>
+                <constraint firstItem="0k8-5b-Jic" firstAttribute="centerY" secondItem="Ln1-1v-h37" secondAttribute="centerY" constant="-30" id="sA9-75-CZf"/>
+            </constraints>
+            <point key="canvasLocation" x="894" y="-39"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="buyingResultJdsfjkw" width="267" height="310"/>
+        <image name="followedStringBack" width="375" height="812"/>
+        <image name="labelUser" width="82" height="40"/>
+        <image name="mymaincellnamelabelFolloweraddusers" width="44" height="44"/>
+        <image name="passwordAvatar" width="195" height="52"/>
+        <image name="personalDiscssionShared" width="87" height="44"/>
+        <image name="setholderCreate" width="195" height="52"/>
+    </resources>
+</document>

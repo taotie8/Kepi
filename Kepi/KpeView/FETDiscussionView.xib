@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JL3-b6-9fd" customClass="FETDiscussionView" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5E-QB-ODG">
+                    <rect key="frame" x="41" y="310" width="311" height="192"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mymaincellnamelabelCheckpeoplecountx" translatesAutoresizingMaskIntoConstraints="NO" id="Khu-HC-jVI">
+                            <rect key="frame" x="0.0" y="0.0" width="311" height="192"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnk-mZ-p23">
+                            <rect key="frame" x="58" y="116" width="195" height="52"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="setholderCreate"/>
+                            <connections>
+                                <action selector="sureCloseHiddenClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="ow9-z2-y4O"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="192.02" id="6Nm-Un-N6j"/>
+                        <constraint firstAttribute="width" constant="310.99" id="9hD-KA-nae"/>
+                        <constraint firstItem="Khu-HC-jVI" firstAttribute="leading" secondItem="a5E-QB-ODG" secondAttribute="leading" id="g9w-Ag-eHc"/>
+                        <constraint firstAttribute="bottom" secondItem="Khu-HC-jVI" secondAttribute="bottom" id="3BM-N4-rlS"/>
+                        <constraint firstAttribute="bottom" secondItem="bnk-mZ-p23" secondAttribute="bottom" constant="24.01" id="AO4-qU-JYh"/>
+                        <constraint firstItem="Khu-HC-jVI" firstAttribute="top" secondItem="a5E-QB-ODG" secondAttribute="top" id="Mly-Ca-0sq"/>
+                        <constraint firstAttribute="trailing" secondItem="Khu-HC-jVI" secondAttribute="trailing" id="Hbe-Yc-ka5"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAh-aE-sJA">
+                    <rect key="frame" x="155.66666666666666" y="518" width="82" height="40"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="labelUser"/>
+                    <connections>
+                        <action selector="sureCloseHiddenClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="C6Y-tn-wnc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hLs-U8-GDl"/>
+            <color key="backgroundColor" white="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xAh-aE-sJA" firstAttribute="centerX" secondItem="JL3-b6-9fd" secondAttribute="centerX" id="dLu-sN-ulI"/>
+                <constraint firstItem="a5E-QB-ODG" firstAttribute="centerY" secondItem="JL3-b6-9fd" secondAttribute="centerY" constant="-20" id="HCh-Kj-jw7"/>
+                <constraint firstItem="a5E-QB-ODG" firstAttribute="centerX" secondItem="JL3-b6-9fd" secondAttribute="centerX" id="Eny-F8-PVD"/>
+                <constraint firstItem="xAh-aE-sJA" firstAttribute="top" secondItem="a5E-QB-ODG" secondAttribute="bottom" constant="16.02" id="IsA-og-2aR"/>
+                <constraint firstItem="bnk-mZ-p23" firstAttribute="centerX" secondItem="JL3-b6-9fd" secondAttribute="centerX" id="AmQ-h8-358"/>
+            </constraints>
+            <point key="canvasLocation" x="-160" y="104"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mymaincellnamelabelCheckpeoplecountx" width="311" height="192"/>
+        <image name="labelUser" width="82" height="40"/>
+        <image name="setholderCreate" width="195" height="52"/>
+    </resources>
+</document>

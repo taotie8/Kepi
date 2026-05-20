@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vHz-zR-EZT" customClass="HGFServciceMainCell" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="97"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="85" height="97"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLs-Pv-gbe">
+                        <rect key="frame" x="10.666666666666664" y="0.0" width="63.999999999999993" height="64"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="64.03" id="dhf-To-Yak"/>
+                            <constraint firstAttribute="width" constant="64.01" id="LmV-pU-LUW"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animationIdsView" translatesAutoresizingMaskIntoConstraints="NO" id="AnG-EY-QP3">
+                        <rect key="frame" x="14.666666666666664" y="4" width="55.999999999999993" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56.02" id="CLL-2q-6u9"/>
+                            <constraint firstAttribute="height" constant="55.99" id="zjZ-uU-dZ6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6H-1F-Mge">
+                        <rect key="frame" x="15" y="68" width="55" height="14.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="IWp-JJ-Fd3"/>
+            <constraints>
+                <constraint firstItem="A6H-1F-Mge" firstAttribute="top" secondItem="AnG-EY-QP3" secondAttribute="bottom" constant="8.01" id="YRP-rD-Bj7"/>
+                <constraint firstItem="bLs-Pv-gbe" firstAttribute="centerX" secondItem="AnG-EY-QP3" secondAttribute="centerX" id="33Y-Om-KEa"/>
+                <constraint firstItem="AnG-EY-QP3" firstAttribute="centerX" secondItem="vHz-zR-EZT" secondAttribute="centerX" id="GvV-gS-SDo"/>
+                <constraint firstItem="AnG-EY-QP3" firstAttribute="top" secondItem="vHz-zR-EZT" secondAttribute="top" constant="4.01" id="y8o-ae-w82"/>
+                <constraint firstItem="bLs-Pv-gbe" firstAttribute="centerY" secondItem="AnG-EY-QP3" secondAttribute="centerY" id="kNM-em-rvQ"/>
+                <constraint firstItem="A6H-1F-Mge" firstAttribute="centerX" secondItem="AnG-EY-QP3" secondAttribute="centerX" id="I6j-SU-vBy"/>
+            </constraints>
+            <size key="customSize" width="85" height="97"/>
+            <connections>
+                <outlet property="duringDiscussionHeaderImageView" destination="AnG-EY-QP3" id="4EE-WH-7No"/>
+                <outlet property="duringDiscussionNickNameLabel" destination="A6H-1F-Mge" id="qBm-Ap-YGQ"/>
+                <outlet property="duringView" destination="bLs-Pv-gbe" id="YsD-8I-ShL"/>
+            </connections>
+            <point key="canvasLocation" x="-44" y="-49"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="animationIdsView" width="73" height="73"/>
+    </resources>
+</document>

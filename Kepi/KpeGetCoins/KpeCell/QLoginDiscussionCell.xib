@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vHz-zR-EZT" customClass="QLoginDiscussionCell" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="86"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTB-yC-Y8j">
+                        <rect key="frame" x="85" y="15" width="34.333333333333343" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="latestPublish" translatesAutoresizingMaskIntoConstraints="NO" id="f71-6K-GfX">
+                        <rect key="frame" x="40" y="6.6666666666666679" width="38" height="38"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuS-id-GgB">
+                        <rect key="frame" x="0.0" y="54" width="160" height="32"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31.98" id="O2s-x9-Sf5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="IWp-JJ-Fd3"/>
+            <color key="backgroundColor" red="0.19215686274509802" green="0.18431372549019609" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="fTB-yC-Y8j" firstAttribute="leading" secondItem="f71-6K-GfX" secondAttribute="trailing" constant="6.99" id="Cpy-es-0te"/>
+                <constraint firstAttribute="trailing" secondItem="IuS-id-GgB" secondAttribute="trailing" id="aeH-1W-Qeb"/>
+                <constraint firstItem="fTB-yC-Y8j" firstAttribute="centerX" secondItem="vHz-zR-EZT" secondAttribute="centerX" constant="22.04" id="eGd-QA-3c9"/>
+                <constraint firstItem="fTB-yC-Y8j" firstAttribute="centerY" secondItem="f71-6K-GfX" secondAttribute="centerY" id="ZCe-bJ-89u"/>
+                <constraint firstAttribute="bottom" secondItem="IuS-id-GgB" secondAttribute="bottom" id="7pk-Uq-AC1"/>
+                <constraint firstItem="fTB-yC-Y8j" firstAttribute="top" secondItem="vHz-zR-EZT" secondAttribute="top" constant="14.96" id="2Fq-hA-Gmi"/>
+                <constraint firstItem="IuS-id-GgB" firstAttribute="leading" secondItem="vHz-zR-EZT" secondAttribute="leading" id="cj4-qZ-KN0"/>
+            </constraints>
+            <connections>
+                <outlet property="getCoinsCountLabel" destination="fTB-yC-Y8j" id="kOp-DC-A8s"/>
+                <outlet property="getCoinsSalePriceLabel" destination="IuS-id-GgB" id="d82-e6-Dsk"/>
+            </connections>
+            <point key="canvasLocation" x="-342" y="-118"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="latestPublish" width="38" height="38"/>
+    </resources>
+</document>

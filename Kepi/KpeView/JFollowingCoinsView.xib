@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JL3-b6-9fd" customClass="JFollowingCoinsView" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MkS-sL-RON">
+                    <rect key="frame" x="0.0" y="597" width="393" height="255"/>
+                    <subviews>
+                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg6-E9-GX6">
+                            <rect key="frame" x="49" y="24" width="295" height="52"/>
+                            <color key="backgroundColor" red="0.2901960784" green="0.28235294119999998" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="295.01" id="ZSd-4L-EAu"/>
+                                <constraint firstAttribute="height" constant="51.99" id="sOq-tf-bqw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Report"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="choiceReportAndBlockClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="yhA-cI-Mc6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2a-kE-4VY">
+                            <rect key="frame" x="49" y="88" width="295" height="52"/>
+                            <color key="backgroundColor" red="0.2901960784" green="0.28235294119999998" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51.95" id="U8x-ST-kUk"/>
+                                <constraint firstAttribute="width" constant="294.98" id="Sqs-Lp-KF4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Block"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="choiceReportAndBlockClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="TY9-HU-4DF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXg-1I-laR">
+                            <rect key="frame" x="49" y="158" width="295" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="295.01" id="iZk-se-cYy"/>
+                                <constraint firstAttribute="height" constant="51.98" id="2wK-iu-q1T"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="waltesPlay"/>
+                            <connections>
+                                <action selector="choiceReportAndBlockClick:" destination="JL3-b6-9fd" eventType="touchUpInside" id="pTi-Tb-7B8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.19215686269999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="S2a-kE-4VY" firstAttribute="top" secondItem="Gg6-E9-GX6" secondAttribute="bottom" constant="12.02" id="Xf6-dE-mm9"/>
+                        <constraint firstAttribute="height" constant="254.97" id="nvR-he-LJy"/>
+                        <constraint firstItem="ZXg-1I-laR" firstAttribute="centerX" secondItem="MkS-sL-RON" secondAttribute="centerX" id="GkQ-dm-sA0"/>
+                        <constraint firstItem="Gg6-E9-GX6" firstAttribute="centerX" secondItem="MkS-sL-RON" secondAttribute="centerX" id="4N7-D3-1tT"/>
+                        <constraint firstItem="S2a-kE-4VY" firstAttribute="centerX" secondItem="MkS-sL-RON" secondAttribute="centerX" id="oYz-oK-NNG"/>
+                        <constraint firstItem="ZXg-1I-laR" firstAttribute="top" secondItem="S2a-kE-4VY" secondAttribute="bottom" constant="17.99" id="vLP-jh-oPi"/>
+                        <constraint firstItem="Gg6-E9-GX6" firstAttribute="top" secondItem="MkS-sL-RON" secondAttribute="top" constant="24.01" id="UVa-oc-o9K"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="21"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hLs-U8-GDl"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MkS-sL-RON" secondAttribute="bottom" id="LzD-xe-uTo"/>
+                <constraint firstItem="MkS-sL-RON" firstAttribute="leading" secondItem="hLs-U8-GDl" secondAttribute="leading" id="BVj-FO-k6Q"/>
+                <constraint firstItem="MkS-sL-RON" firstAttribute="trailing" secondItem="hLs-U8-GDl" secondAttribute="trailing" id="fDd-EX-5LN"/>
+            </constraints>
+            <point key="canvasLocation" x="22" y="-7"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="waltesPlay" width="295" height="52"/>
+    </resources>
+</document>

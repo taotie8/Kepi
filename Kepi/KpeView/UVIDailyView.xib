@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JL3-b6-9fd" customClass="UVIDailyView" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L3V-dI-PTC">
+                    <rect key="frame" x="0.0" y="292" width="393" height="560"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EULA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Os7-tW-ULp">
+                            <rect key="frame" x="171.33333333333334" y="30" width="50.666666666666657" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MOo-5I-2lI">
+                            <rect key="frame" x="17" y="70" width="359" height="374"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <mutableString key="text">This End User License Agreement (EULA) governs your use of the Kepo Application. By downloading, accessing, or using the App, you agree to comply with and be bound by the terms of this Agreement. If you do not agree, please do not use the application.Age RequirementThe Kepo App is intended strictly for users who are 18 years of age or older. By using the App, you confirm that you meet this minimum age requirement.You agree to provide accurate and truthful information about your age during registration and use. Users under 18 are not permitted to access or use Kepo. We reserve the right to suspend or terminate any account that violates this requirement.User Accounts and Communication RulesKepo requires all users to register with identifiable accounts. Anonymous posting or anonymous interaction is not permitted.In addition, user-to-user communication is restricted: Messaging and interaction features are only available between users who have mutually followed each other or established a confirmed connection (e.g., friends).Any attempt to bypass or misuse this system may result in account restrictions or suspension.User-Generated ContentKepo allows users to share content such as images, descriptions, and other related materials.By submitting content, you agree to the following:Prohibited Content: You must not upload or share any content that is inappropriate, harmful, or unlawful, including but not limited to:Hate speech, harassment, abuse, or personal attacks; Pornographic, explicit, or obscene material; Content promoting violence, discrimination, or illegal activities; Any content that violates community standards or public morals.Content License: You retain ownership of your content. However, by posting, you grant Kepo a non-exclusive, worldwide license to use, display, distribute, and utilize such content within the App, including for features like content-based recommendations.Reporting and Enforcement4.1 User ResponsibilityIf you encounter content or behavior that violates this Agreement, you agree to report it promptly through Kepo’s reporting system.4.2 Platform ActionWe will review reported content within a reasonable timeframe (typically within 24 hours) and may take appropriate action, including removing content, issuing warnings, or suspending accounts. Repeated violations may result in permanent bans.Privacy PolicyBy using Kepo, you acknowledge that you have read and understood our Privacy Policy, which explains how your personal data is collected, used, and protected.Account TerminationWe reserve the right to suspend or terminate your access to Kepo at any time, with or without prior notice. You may also stop using the App and delete your account at any time.Changes to This AgreementWe may update this Agreement from time to time. Changes will be communicated within the App, and your continued use of Kepo indicates your acceptance of the revised terms.DisclaimerKepo is provided on an “AS IS” basis without warranties of any kind. We do not guarantee uninterrupted service, error-free performance, or complete security.Limitation of LiabilityTo the fullest extent permitted by law, Kepo shall not be held liable for any damages arising from your use of the App.</mutableString>
+                            <color key="textColor" red="0.76078431372549016" green="0.75686274509803919" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hO-JU-gqh">
+                            <rect key="frame" x="49" y="464" width="295" height="52"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="sendPrice"/>
+                            <connections>
+                                <action selector="agreeTermsOfPrivacyAction:" destination="JL3-b6-9fd" eventType="touchUpInside" id="OjE-hj-jRA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.19215686274509802" green="0.18431372549019609" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="MOo-5I-2lI" secondAttribute="trailing" constant="16.99" id="i88-dp-NUA"/>
+                        <constraint firstItem="7hO-JU-gqh" firstAttribute="centerX" secondItem="L3V-dI-PTC" secondAttribute="centerX" id="9Va-ce-LaF"/>
+                        <constraint firstItem="MOo-5I-2lI" firstAttribute="leading" secondItem="L3V-dI-PTC" secondAttribute="leading" constant="16.99" id="SMX-dj-gcv"/>
+                        <constraint firstAttribute="bottom" secondItem="7hO-JU-gqh" secondAttribute="bottom" constant="44.02" id="6xL-Ra-Mkm"/>
+                        <constraint firstAttribute="height" constant="559.98" id="htI-WR-IhP"/>
+                        <constraint firstItem="Os7-tW-ULp" firstAttribute="centerX" secondItem="L3V-dI-PTC" secondAttribute="centerX" id="JYv-iW-2Ql"/>
+                        <constraint firstItem="MOo-5I-2lI" firstAttribute="top" secondItem="Os7-tW-ULp" secondAttribute="bottom" constant="15.96" id="2iA-1v-czA"/>
+                        <constraint firstItem="Os7-tW-ULp" firstAttribute="top" secondItem="L3V-dI-PTC" secondAttribute="top" constant="29.99" id="1Vn-BT-Sq3"/>
+                        <constraint firstItem="7hO-JU-gqh" firstAttribute="top" secondItem="MOo-5I-2lI" secondAttribute="bottom" constant="20.01" id="k5J-xd-rM8"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="19"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9h-0H-5kj">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="292"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="agreeTermsOfPrivacyAction:" destination="JL3-b6-9fd" eventType="touchUpInside" id="3z9-4P-9eF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hLs-U8-GDl"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="c9h-0H-5kj" firstAttribute="leading" secondItem="JL3-b6-9fd" secondAttribute="leading" id="eKg-3I-br7"/>
+                <constraint firstAttribute="bottom" secondItem="L3V-dI-PTC" secondAttribute="bottom" id="6ri-Wp-uiE"/>
+                <constraint firstAttribute="trailing" secondItem="c9h-0H-5kj" secondAttribute="trailing" id="uVt-hE-11h"/>
+                <constraint firstItem="hLs-U8-GDl" firstAttribute="trailing" secondItem="L3V-dI-PTC" secondAttribute="trailing" id="5D4-KL-QpE"/>
+                <constraint firstItem="L3V-dI-PTC" firstAttribute="leading" secondItem="hLs-U8-GDl" secondAttribute="leading" id="9Yh-P4-pTD"/>
+                <constraint firstItem="c9h-0H-5kj" firstAttribute="top" secondItem="JL3-b6-9fd" secondAttribute="top" id="suQ-x7-MEr"/>
+                <constraint firstItem="L3V-dI-PTC" firstAttribute="top" secondItem="c9h-0H-5kj" secondAttribute="bottom" id="5xv-pb-3kf"/>
+            </constraints>
+            <connections>
+                <outlet property="termsOfTextView" destination="MOo-5I-2lI" id="2i1-ty-ZEx"/>
+            </connections>
+            <point key="canvasLocation" x="-208" y="Heh-JB-pOA"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sendPrice" width="295" height="52"/>
+    </resources>
+</document>

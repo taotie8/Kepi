@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AI66B5U50A511J104374T81 /* Pods_Kepi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941366EN9AH400ZZ750G5Q49 /* Pods_Kepi.framework */; };
+		AUJ7R470S090857IR8ZB6110 /* JSubmitedVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SWPJ055BF558601W45767V23 /* JSubmitedVideoView.swift */; };
+		BLG556B48194OY179E74E915 /* GPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = TX36B9Y51VT3JGRRZ7S7643N /* GPostsView.swift */; };
+		CE141D34T97689083LD10128 /* LPDiscussionSignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CVIGT62F0O1Z1SL489U262AZ /* LPDiscussionSignController.swift */; };
+		ES16G4323O454828227102T8 /* SSendSendObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3M08752116248Z3U1324L4 /* SSendSendObject.swift */; };
+		GD46879X2941HV365K8D84SE /* NKIDailyAlbumObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = SW5K1754811BD35858P7P45G /* NKIDailyAlbumObject.swift */; };
+		GU01U939968SH8Q3W4O1749M /* MYProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BU0X9SJ09XO58662UFR94S32 /* MYProfileView.swift */; };
+		HVFW5X46PGC17292W8H60914 /* HDiscussionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = KPK48FQJ0V778153V6222HIN /* HDiscussionController.swift */; };
+		IP31691WJ19L95174O13R4DE /* VAScreenMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SNZ7177IF0XJ7O0881W20X1L /* VAScreenMainView.swift */; };
+		IX0W5K1N9F98X0269HZ4N748 /* GPSuccessFollowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = YMZ459MF6635304PW7274722 /* GPSuccessFollowingView.swift */; };
+		JG8ZKK24D95045455GE7160L /* TJSModityDiscussionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZNC6980U44A18433025P2C26 /* TJSModityDiscussionController.swift */; };
+		JZ668JAND6410RC21RGM5PML /* QSuccessServciceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = HX7D2362W6LN01HH7Y29597Q /* QSuccessServciceController.swift */; };
+		OURW63168D5I50D0506A7FG7 /* HFollowerProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = YF58GG80G6643W0J37167833 /* HFollowerProjectView.swift */; };
+		OX4N9F10242373N49J35DU0O /* TGPDiscussionSignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EU4I91I69L5148Y225P35471 /* TGPDiscussionSignController.swift */; };
+		PN30A21T429J377NG1250502 /* YXAnimationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = YKK39D4D1C3C36286TUOG40I /* YXAnimationObject.swift */; };
+		SN03E22IEDG7G85O932E50F2 /* NMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZNTX899O96O6A0S77985L014 /* NMainView.swift */; };
+		SX9849671T2188VE49928651 /* XNMainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = LPW93TMJ543287Z1T0345985 /* XNMainObject.swift */; };
+		TP04F82B47W136YKV97P2766 /* WJBSendVideoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = GC139Q4236799674Y7U18031 /* WJBSendVideoObject.swift */; };
+		UUUU2S6306F5F268037479EI /* OVWLoginObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = KQ390U4Y75WM12L68049Y5N1 /* OVWLoginObject.swift */; };
+		VD52U3EI384382J1N427630M /* BWProjectUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = NY4ZQ55ZR83SN058026X2744 /* BWProjectUserView.swift */; };
+		VDJ04606064734OMV4Y1984D /* EPageLaunchObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = YE3N92M8F249V1082G13S529 /* EPageLaunchObject.swift */; };
+		WVB950381E0R61C5BF4E18XY /* PLaunchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PDW8FMUH436147NR13D426V9 /* PLaunchCollectionView.swift */; };
+		XF016P55B15O64F4QIQ9079W /* LFQDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DO370169RQ23ALGT2B0JJ058 /* LFQDataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04550C3T16L38324465119GH /* Kepi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kepi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1FY4SZK15I61302536251H /* Pods-Kepi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kepi.debug.xcconfig"; path = "Target Support Files/Pods-Kepi/Pods-Kepi.debug.xcconfig"; sourceTree = "<group>"; };
+		941366EN9AH400ZZ750G5Q49 /* Pods_Kepi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kepi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BU0X9SJ09XO58662UFR94S32 /* MYProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = MYProfileView.swift; sourceTree = "<group>"; };
+		CVIGT62F0O1Z1SL489U262AZ /* LPDiscussionSignController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = LPDiscussionSignController.swift; sourceTree = "<group>"; };
+		DO370169RQ23ALGT2B0JJ058 /* LFQDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = LFQDataController.swift; sourceTree = "<group>"; };
+		EF1IV0529G008U45T79U1499 /* Pods-Kepi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kepi.release.xcconfig"; path = "Target Support Files/Pods-Kepi/Pods-Kepi.release.xcconfig"; sourceTree = "<group>"; };
+		EU4I91I69L5148Y225P35471 /* TGPDiscussionSignController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = TGPDiscussionSignController.swift; sourceTree = "<group>"; };
+		FE3M08752116248Z3U1324L4 /* SSendSendObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = SSendSendObject.swift; sourceTree = "<group>"; };
+		GC139Q4236799674Y7U18031 /* WJBSendVideoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = WJBSendVideoObject.swift; sourceTree = "<group>"; };
+		HX7D2362W6LN01HH7Y29597Q /* QSuccessServciceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = QSuccessServciceController.swift; sourceTree = "<group>"; };
+		KPK48FQJ0V778153V6222HIN /* HDiscussionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = HDiscussionController.swift; sourceTree = "<group>"; };
+		KQ390U4Y75WM12L68049Y5N1 /* OVWLoginObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = OVWLoginObject.swift; sourceTree = "<group>"; };
+		LPW93TMJ543287Z1T0345985 /* XNMainObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = XNMainObject.swift; sourceTree = "<group>"; };
+		NY4ZQ55ZR83SN058026X2744 /* BWProjectUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = BWProjectUserView.swift; sourceTree = "<group>"; };
+		PDW8FMUH436147NR13D426V9 /* PLaunchCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = PLaunchCollectionView.swift; sourceTree = "<group>"; };
+		SNZ7177IF0XJ7O0881W20X1L /* VAScreenMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = VAScreenMainView.swift; sourceTree = "<group>"; };
+		SW5K1754811BD35858P7P45G /* NKIDailyAlbumObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = NKIDailyAlbumObject.swift; sourceTree = "<group>"; };
+		SWPJ055BF558601W45767V23 /* JSubmitedVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = JSubmitedVideoView.swift; sourceTree = "<group>"; };
+		TX36B9Y51VT3JGRRZ7S7643N /* GPostsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = GPostsView.swift; sourceTree = "<group>"; };
+		YE3N92M8F249V1082G13S529 /* EPageLaunchObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = EPageLaunchObject.swift; sourceTree = "<group>"; };
+		YF58GG80G6643W0J37167833 /* HFollowerProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = HFollowerProjectView.swift; sourceTree = "<group>"; };
+		YKK39D4D1C3C36286TUOG40I /* YXAnimationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = YXAnimationObject.swift; sourceTree = "<group>"; };
+		YMZ459MF6635304PW7274722 /* GPSuccessFollowingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = GPSuccessFollowingView.swift; sourceTree = "<group>"; };
+		ZNC6980U44A18433025P2C26 /* TJSModityDiscussionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = TJSModityDiscussionController.swift; sourceTree = "<group>"; };
+		ZNTX899O96O6A0S77985L014 /* NMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = NMainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04R384W5S199IZF8500844AT /* Exceptions for "Kepi" folder in "Kepi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 043C8MVP51251581320M506N /* Kepi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0415U175931053E2G5483170 /* Kepi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04R384W5S199IZF8500844AT /* Exceptions for "Kepi" folder in "Kepi" target */,
+			);
+			path = Kepi;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048974P3121892567M793WI6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AI66B5U50A511J104374T81 /* Pods_Kepi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0419801585770G314YZ02M7D = {
+			isa = PBXGroup;
+			children = (
+				0415U175931053E2G5483170 /* Kepi */,
+				04P80I452N2291082649J240 /* Products */,
+				CFAOFJ7E6357QG4996CG21J0 /* Pods */,
+				4C5M21246852377IIK01PH53 /* Frameworks */,
+				MT06M36169423Y1U506EUJ31 /* libavresample */,
+			);
+			sourceTree = "<group>";
+		};
+		04P80I452N2291082649J240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04550C3T16L38324465119GH /* Kepi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5M21246852377IIK01PH53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941366EN9AH400ZZ750G5Q49 /* Pods_Kepi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFAOFJ7E6357QG4996CG21J0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FY4SZK15I61302536251H /* Pods-Kepi.debug.xcconfig */,
+				EF1IV0529G008U45T79U1499 /* Pods-Kepi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		MT06M36169423Y1U506EUJ31 /* libavresample */ = {
+			isa = PBXGroup;
+			children = (
+				BU0X9SJ09XO58662UFR94S32 /* MYProfileView.swift */,
+				KQ390U4Y75WM12L68049Y5N1 /* OVWLoginObject.swift */,
+				YE3N92M8F249V1082G13S529 /* EPageLaunchObject.swift */,
+				CVIGT62F0O1Z1SL489U262AZ /* LPDiscussionSignController.swift */,
+				TX36B9Y51VT3JGRRZ7S7643N /* GPostsView.swift */,
+				NY4ZQ55ZR83SN058026X2744 /* BWProjectUserView.swift */,
+				GC139Q4236799674Y7U18031 /* WJBSendVideoObject.swift */,
+				EU4I91I69L5148Y225P35471 /* TGPDiscussionSignController.swift */,
+				SNZ7177IF0XJ7O0881W20X1L /* VAScreenMainView.swift */,
+				KPK48FQJ0V778153V6222HIN /* HDiscussionController.swift */,
+				DO370169RQ23ALGT2B0JJ058 /* LFQDataController.swift */,
+				YKK39D4D1C3C36286TUOG40I /* YXAnimationObject.swift */,
+				YF58GG80G6643W0J37167833 /* HFollowerProjectView.swift */,
+				ZNTX899O96O6A0S77985L014 /* NMainView.swift */,
+				HX7D2362W6LN01HH7Y29597Q /* QSuccessServciceController.swift */,
+				ZNC6980U44A18433025P2C26 /* TJSModityDiscussionController.swift */,
+				SW5K1754811BD35858P7P45G /* NKIDailyAlbumObject.swift */,
+				FE3M08752116248Z3U1324L4 /* SSendSendObject.swift */,
+				PDW8FMUH436147NR13D426V9 /* PLaunchCollectionView.swift */,
+				SWPJ055BF558601W45767V23 /* JSubmitedVideoView.swift */,
+				YMZ459MF6635304PW7274722 /* GPSuccessFollowingView.swift */,
+				LPW93TMJ543287Z1T0345985 /* XNMainObject.swift */,
+			);
+			path = libavresample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043C8MVP51251581320M506N /* Kepi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E2YU40J61O01789L622F3T /* Build configuration list for PBXNativeTarget "Kepi" */;
+			buildPhases = (
+				6C2171UA6475109P999BM1J1 /* [CP] Check Pods Manifest.lock */,
+				04U88255W1101T610863A107 /* Sources */,
+				048974P3121892567M793WI6 /* Frameworks */,
+				04724J22SI15Y75SH3139NCY /* Resources */,
+				A9C5QTB8996SW4E9542821E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0415U175931053E2G5483170 /* Kepi */,
+			);
+			name = Kepi;
+			productName = Kepi;
+			productReference = 04550C3T16L38324465119GH /* Kepi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04VS6211U6D79798035XP5T5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					043C8MVP51251581320M506N = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 04N2J92IK7X77U3430J58841 /* Build configuration list for PBXProject "Kepi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0419801585770G314YZ02M7D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04P80I452N2291082649J240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043C8MVP51251581320M506N /* Kepi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04724J22SI15Y75SH3139NCY /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C2171UA6475109P999BM1J1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kepi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C5QTB8996SW4E9542821E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kepi/Pods-Kepi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kepi/Pods-Kepi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kepi/Pods-Kepi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04U88255W1101T610863A107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				GU01U939968SH8Q3W4O1749M /* MYProfileView.swift in Sources */,
+				UUUU2S6306F5F268037479EI /* OVWLoginObject.swift in Sources */,
+				VDJ04606064734OMV4Y1984D /* EPageLaunchObject.swift in Sources */,
+				CE141D34T97689083LD10128 /* LPDiscussionSignController.swift in Sources */,
+				BLG556B48194OY179E74E915 /* GPostsView.swift in Sources */,
+				VD52U3EI384382J1N427630M /* BWProjectUserView.swift in Sources */,
+				TP04F82B47W136YKV97P2766 /* WJBSendVideoObject.swift in Sources */,
+				OX4N9F10242373N49J35DU0O /* TGPDiscussionSignController.swift in Sources */,
+				IP31691WJ19L95174O13R4DE /* VAScreenMainView.swift in Sources */,
+				HVFW5X46PGC17292W8H60914 /* HDiscussionController.swift in Sources */,
+				XF016P55B15O64F4QIQ9079W /* LFQDataController.swift in Sources */,
+				PN30A21T429J377NG1250502 /* YXAnimationObject.swift in Sources */,
+				OURW63168D5I50D0506A7FG7 /* HFollowerProjectView.swift in Sources */,
+				SN03E22IEDG7G85O932E50F2 /* NMainView.swift in Sources */,
+				JZ668JAND6410RC21RGM5PML /* QSuccessServciceController.swift in Sources */,
+				JG8ZKK24D95045455GE7160L /* TJSModityDiscussionController.swift in Sources */,
+				GD46879X2941HV365K8D84SE /* NKIDailyAlbumObject.swift in Sources */,
+				ES16G4323O454828227102T8 /* SSendSendObject.swift in Sources */,
+				WVB950381E0R61C5BF4E18XY /* PLaunchCollectionView.swift in Sources */,
+				AUJ7R470S090857IR8ZB6110 /* JSubmitedVideoView.swift in Sources */,
+				IX0W5K1N9F98X0269HZ4N748 /* GPSuccessFollowingView.swift in Sources */,
+				SX9849671T2188VE49928651 /* XNMainObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04302E0W48A216CRW51D8G4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1IV0529G008U45T79U1499 /* Pods-Kepi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K2D8KTNH2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kepi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kepi;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kepi requires camera access to capture photos and record videos for creating and sharing content within the app. Your photos and videos may be used to personalize your profile or share posts with others. All media is stored securely on your device and will only be shared with your permission. Your privacy and security are important to us.\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Kepi requires microphone access to record audio when capturing videos within the app. Audio is stored on your device and will only be shared as part of the content you choose to upload. Your privacy and security are important to us.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Kepi needs access to your photo library for sharing memorable photos/videos. It stays on your device unless you share. Access is for easy sharing and is privacy-protected.\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotaolin.vidoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev02;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04404DC337912538GA92JU28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1FY4SZK15I61302536251H /* Pods-Kepi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K2D8KTNH2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kepi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kepi;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kepi requires camera access to capture photos and record videos for creating and sharing content within the app. Your photos and videos may be used to personalize your profile or share posts with others. All media is stored securely on your device and will only be shared with your permission. Your privacy and security are important to us.\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Kepi requires microphone access to record audio when capturing videos within the app. Audio is stored on your device and will only be shared as part of the content you choose to upload. Your privacy and security are important to us.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Kepi needs access to your photo library for sharing memorable photos/videos. It stays on your device unless you share. Access is for easy sharing and is privacy-protected.\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotaolin.vidoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev02;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04526T12098H3334E70R7893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04P876I140NAY6S241L04250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E2YU40J61O01789L622F3T /* Build configuration list for PBXNativeTarget "Kepi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04404DC337912538GA92JU28 /* Debug */,
+				04302E0W48A216CRW51D8G4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04N2J92IK7X77U3430J58841 /* Build configuration list for PBXProject "Kepi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04526T12098H3334E70R7893 /* Debug */,
+				04P876I140NAY6S241L04250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04VS6211U6D79798035XP5T5 /* Project object */;
+}

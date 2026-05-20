@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="Heh-JB-pOA" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="wWe-sI-YmV" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="106" id="Y6Z-5d-49Q" customClass="MHReportChoiceCell" customModule="Kepo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y6Z-5d-49Q" id="tLb-NJ-Hhr">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animationIdsView" translatesAutoresizingMaskIntoConstraints="NO" id="B7Z-gV-AQQ">
+                        <rect key="frame" x="20" y="12" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23.99" id="gtH-7g-Alv"/>
+                            <constraint firstAttribute="width" constant="23.99" id="eVK-mQ-eut"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyk-jc-Wk7">
+                        <rect key="frame" x="52" y="16.333333333333332" width="12.333333333333329" height="15.666666666666668"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofy-Ee-pft">
+                        <rect key="frame" x="74.333333333333329" y="12" width="24" height="24"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="type_4Scene"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNV-GI-2SV">
+                        <rect key="frame" x="20" y="48" width="71.666666666666671" height="46"/>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.18431372549019609" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sqv-Np-NSr">
+                        <rect key="frame" x="36" y="56.000000000000007" width="39.666666666666657" height="19.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="rNV-GI-2SV" firstAttribute="leading" secondItem="tLb-NJ-Hhr" secondAttribute="leading" constant="19.98" id="Upd-nY-mUu"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Sqv-Np-NSr" secondAttribute="bottom" constant="20.04" id="80Z-C1-Xuj"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Sqv-Np-NSr" secondAttribute="trailing" constant="81.98" id="bgU-vd-6lD"/>
+                    <constraint firstItem="Sqv-Np-NSr" firstAttribute="leading" secondItem="tLb-NJ-Hhr" secondAttribute="leading" constant="35.99" id="zPy-aW-DLi"/>
+                    <constraint firstAttribute="bottom" secondItem="rNV-GI-2SV" secondAttribute="bottom" constant="12.01" id="LFt-LR-AA0"/>
+                    <constraint firstItem="rNV-GI-2SV" firstAttribute="top" secondItem="B7Z-gV-AQQ" secondAttribute="bottom" constant="12.01" id="KtO-D8-Ms8"/>
+                    <constraint firstItem="pyk-jc-Wk7" firstAttribute="centerY" secondItem="B7Z-gV-AQQ" secondAttribute="centerY" id="6nB-eu-tNS"/>
+                    <constraint firstItem="Sqv-Np-NSr" firstAttribute="trailing" secondItem="rNV-GI-2SV" secondAttribute="trailing" constant="-16" id="6np-cQ-Gz3"/>
+                    <constraint firstItem="Ofy-Ee-pft" firstAttribute="leading" secondItem="pyk-jc-Wk7" secondAttribute="trailing" constant="10.01" id="LiI-t6-dp6"/>
+                    <constraint firstItem="Sqv-Np-NSr" firstAttribute="top" secondItem="B7Z-gV-AQQ" secondAttribute="bottom" constant="19.96" id="YoM-P3-ZMb"/>
+                    <constraint firstItem="B7Z-gV-AQQ" firstAttribute="leading" secondItem="tLb-NJ-Hhr" secondAttribute="leading" constant="19.98" id="HUQ-B1-nLJ"/>
+                    <constraint firstItem="Ofy-Ee-pft" firstAttribute="centerY" secondItem="B7Z-gV-AQQ" secondAttribute="centerY" id="gth-LB-7l6"/>
+                    <constraint firstItem="B7Z-gV-AQQ" firstAttribute="top" secondItem="tLb-NJ-Hhr" secondAttribute="top" constant="12.02" id="x2Z-99-MQv"/>
+                    <constraint firstItem="pyk-jc-Wk7" firstAttribute="leading" secondItem="B7Z-gV-AQQ" secondAttribute="trailing" constant="7.98" id="5ON-8b-gEP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="B8Z-Ow-aSR"/>
+            <connections>
+                <outlet property="discssionPeopleContentLabel" destination="Sqv-Np-NSr" id="q6e-GH-EBA"/>
+                <outlet property="discssionPeopleHeaderImageView" destination="B7Z-gV-AQQ" id="hjH-Xb-wN3"/>
+                <outlet property="discssionPeopleNicknameLabel" destination="pyk-jc-Wk7" id="oTD-E8-hVJ"/>
+                <outlet property="discssionPeopleReportButton" destination="Ofy-Ee-pft" id="TrX-zA-6X8"/>
+            </connections>
+            <point key="canvasLocation" x="-195" y="-28"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="animationIdsView" width="73" height="73"/>
+        <image name="type_4Scene" width="24" height="24"/>
+    </resources>
+</document>
